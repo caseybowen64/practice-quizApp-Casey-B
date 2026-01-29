@@ -61,13 +61,13 @@ function handleAnswerClick(event) {
     console.log(typeof choiceIdx, typeof correctIdx, typeof currentQuestion, choiceIdx, correctIdx) //checks the types we are working with
 
     if (choiceIdx === correctIdx){ //if the choice is the same as the correct ID alert this.
-        // alert("Correct!")
+        alert("Correct!")
         console.log("Correct");
     }
     else {
         const correctAnswer = currentQuestion.choicesArray[correctIdx]
-        //alert("Wrong! The correct answer is: " + currentQuestion.choicesArray[correctIdx]); //if the choice isn't the same as the ID alert this.
-        console.log("Incorect");
+        alert("Wrong! The correct answer is: " + currentQuestion.choicesArray[correctIdx]); //if the choice isn't the same as the ID alert this.
+        console.log("Incorrect");
     }
     
     console.log("Done with alerts");
