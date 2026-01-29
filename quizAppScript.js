@@ -33,7 +33,7 @@ let questionNumberCounter = 0;
 //getting the HTML object of the question Text
 let questionTextObj = document.getElementById("question-text")
 //a boolean to tell us if they should be able to click on the answers or not.
-let canClickAns = true
+let canClickAns = true;
 
 
 function displayQuestion(questionObj) {
